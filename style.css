@@ -1,0 +1,77 @@
+body{
+    background-image: url(./images/backgroundChef.jpg);
+    background-size: 50%;
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.topbar-menu{
+    display: flex;
+    height: 35px;
+    align-items: center;
+    gap: 20px;
+    
+}
+.topbar-menu>span{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.chief-part{
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.chief-part>div{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.chief-part>img{
+    border-radius: 50%;
+}
+
+.choose{
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+}
+
+.recipes{
+    height: 300px;
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.recipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.recipe>img{
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
+}
+
+.recipe>span{
+    font-size: 22px;
+}
